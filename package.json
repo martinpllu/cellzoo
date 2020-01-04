@@ -1,0 +1,25 @@
+{
+  "name": "cellzoo",
+  "version": "1.0.0",
+  "description": "<a href=\"https://cellzoo.netlify.com\">https://cellzoo.netlify.com</a>",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "concurrently \"tsc --watch \" \"lite-server\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinpllu/cellzoo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/martinpllu/cellzoo#readme",
+  "devDependencies": {
+    "concurrently": "^5.0.2",
+    "lite-server": "^2.5.4",
+    "typescript": "^3.5.3"
+  }
+}

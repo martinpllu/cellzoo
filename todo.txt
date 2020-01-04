@@ -1,0 +1,10 @@
+- Pause buuton broken
+
+- Watch agent
+- Disable autoplay
+- Replace clockwise, opposite etc with implementations based on indexing into ALL array.
+    - write unit tests first
+
+- Offline mode
+
+- Form params
